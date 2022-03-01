@@ -104,14 +104,6 @@
               "target": "Package",
               "version": "[6.0.2, )"
             },
-            "Microsoft.Windows.SDK.BuildTools": {
-              "target": "Package",
-              "version": "[10.0.22000.197, )"
-            },
-            "Microsoft.WindowsAppSDK": {
-              "target": "Package",
-              "version": "[1.0.0, )"
-            },
             "PInvoke.User32": {
               "target": "Package",
               "version": "[0.7.104, )"
@@ -169,81 +161,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-arm",
-              "version": "[6.0.2, 6.0.2]"
-            },
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
-              "version": "[6.0.2, 6.0.2]"
-            },
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[6.0.2, 6.0.2]"
-            },
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-              "version": "[6.0.2, 6.0.2]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.win-arm",
-              "version": "[6.0.2, 6.0.2]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.win-arm64",
-              "version": "[6.0.2, 6.0.2]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[6.0.2, 6.0.2]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.win-x86",
-              "version": "[6.0.2, 6.0.2]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
-              "version": "[6.0.2, 6.0.2]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[6.0.2, 6.0.2]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
-              "version": "[6.0.2, 6.0.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win10-arm": {
-          "#import": []
-        },
-        "win10-arm-aot": {
-          "#import": []
-        },
-        "win10-arm64-aot": {
-          "#import": []
-        },
-        "win10-x64": {
-          "#import": []
-        },
-        "win10-x64-aot": {
-          "#import": []
-        },
-        "win10-x86": {
-          "#import": []
-        },
-        "win10-x86-aot": {
-          "#import": []
         }
       }
     }
