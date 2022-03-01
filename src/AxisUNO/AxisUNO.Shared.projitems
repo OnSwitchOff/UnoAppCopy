@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>6279c845-92f8-4333-ab99-3d213163593c</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>AxisUNO</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Assets\SharedAssets.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\en\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\ActivationConfiguration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\Assemblies.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\DatabaseConfiguration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\LoggingConfiguration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\NavigationConfiguration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\Startup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Activation\ActivationService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Activation\Handlers\DefaultActivationHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Activation\Handlers\FirstLaunchActivationHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Activation\Steps\DatabaseActivationStep.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Navigation\NavigationService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="$(MSBuildThisFileDirectory)stylecop.json" />
+  </ItemGroup>
+</Project>

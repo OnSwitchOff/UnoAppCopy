@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>6279c845-92f8-4333-ab99-3d213163593c</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>AxisUNO</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)AutofacModules\ActivationModule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AutofacModules\LoggingModule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AutofacModules\NavigationModule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configurations\Database\DatabaseConfiguration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configurations\Startup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Prerequisite\Win32\WindowIconLoaders\WindowIconLoader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Activation\ActivationService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Navigation\Extensions\FrameExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Navigation\NavigationService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Navigation\NavigationViewService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Navigation\ViewsService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Application\AutofacModules\ApplicationServicesModule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Application\ProdcutGroups\GroupPathGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Application\Products\AddNewProduct\AddNewProdcutCommandValidator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Application\Products\AddNewProduct\AddNewProductCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Application\Products\AddNewProduct\AddNewProductCommandHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Application\Services\Activation\Handlers\DefaultActivationHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Application\Services\Activation\IActivationService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Application\Services\Navigation\INavigationAware.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Application\Services\Navigation\INavigationService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Application\Services\Navigation\INavigationViewService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Application\Services\Navigation\IViewsService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Application\Services\ThemeSelector\IThemeSelectorService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Application\Services\ThemeSelector\ThemeSelectorService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Application\ViewModels\BaseViewModels\BaseViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Application\ViewModels\BaseViewModels\GenericCollectionViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Application\ViewModels\BaseViewModels\GenericDetailsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Application\ViewModels\DashboardViewModels\DashboardViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Application\ViewModels\MainViewModels\MainViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Application\ViewModels\OperationViewModels\OperationViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Application\ViewModels\ProductsViewModels\ProductsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Application\ViewModels\ProductViewModels\ProductViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Application\ViewModels\SettingsViewModels\SettingsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Documents\Document.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Monney\CurrenciesExchange\ConversionRate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Monney\CurrenciesExchange\Currency.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Monney\CurrenciesExchange\ICurrenciesExchange.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Monney\Extensions\SumExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Monney\MoneyValue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Monney\Rules\MoneyValueOperationMustBePerformedOnTheSameCurrencyRule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\OperationDetails\OperationDetail.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\OperationHeaders\IOperationIdProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\OperationHeaders\OperationHeader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Operations\Events\SaveOperationEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Operations\Operation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Operations\OperationType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Operations\Revaluations\Revaluation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Operations\Rules\AmountOfProductsCannotBeZeroRule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Operations\Rules\QuantityCannotBeLessThanOneRule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Operations\Sale\IUniqueSaleNumberProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\PartnersGroups\PartnersGroup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Partners\Partner.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Payments\Payment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\ProductCodes\ProductCode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\ProductGroups\Events\ProductGroupDiscountChangedEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\ProductGroups\IGroupPathGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\ProductGroups\IProductGroupRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\ProductGroups\ProductGroup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\ProductGroups\Rules\DiscountCanNotBeNegativeRule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\ProductGroups\Rules\NameMustNotBeEmptyRule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\ProductGroups\Rules\PathMustNotBeEmptyRule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Products\Enums\ProductStatus.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Products\Enums\ProductType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Products\Events\ProductNameChangedEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Products\IProductRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Products\Measures\Measure.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Products\OperationProduct.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Products\Product.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Products\Rules\NameMustNotBeEmptyRule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Registration\IRegistrationRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Registration\Registration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Domain\Stores\Store.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Infrastructure\AutofacModules\Helpers\MediatorAssemblies.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Infrastructure\AutofacModules\MediatorModule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Infrastructure\AutofacModules\ProcessingModule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Infrastructure\Decorators\DomainEventsDispatching\DomainEventsDispatcherNotificationHandlerDecorator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Infrastructure\Decorators\Logging\LoggingRequestHandlerDecorator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Infrastructure\Decorators\QueryDiagnostics\DiagnosticQueryHandlerDecorator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Infrastructure\Decorators\UnitOfWork\UnitOfWorkCommandHandlerDecorator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Infrastructure\Pipelines\Validation\ValidationRequestPreProcessor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Behaviors\NavigationViewHeader\NavigationViewHeaderBehavior.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Behaviors\NavigationViewHeader\NavigationViewHeaderMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Controls\CustomCommandBars\CustomCommandBar.xaml.cs">
+      <DependentUpon>CustomCommandBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Controls\CustomCommandBars\Enums\CommandBarMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Converters\DateTimeFormatConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Converters\DecimalConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Converters\NullToVisibilityConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Converters\ObjectToImageConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\DependencyPropertyExtensions\NavigationViewItemExtensions\NavigationExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Views\DashboardViews\DashboardView.xaml.cs">
+      <DependentUpon>DashboardView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Views\MainViews\MainView.xaml.cs">
+      <DependentUpon>MainView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Views\ProductsViews\ProductsView.xaml.cs">
+      <DependentUpon>ProductsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Application\Commands\CommandBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Application\Commands\ICommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Application\Commands\ICommandHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Application\DomainEvents\IDomainEventHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Application\Queries\IQuery.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Application\Queries\IQueryHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Application\Queries\QueryBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Application\Requests\IRequestIdentity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Application\Requests\RequestBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Application\Services\Activation\Handlers\ActivationHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Application\Services\Activation\Handlers\IActivationHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Application\Services\DatabaseMigration\IDatabaseMigrationService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Application\Validation\InvalidCommandException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Domain\AggregateRoots\IAggregateRoot.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Domain\BusinessRules\BusinessRuleValidationException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Domain\BusinessRules\IBusinessRule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Domain\Entities\Entity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Domain\Events\DomainEventBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Domain\Events\IDomainEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Domain\TypedIdValueBases\TypedIdValueBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Domain\UnitOfWorks\IUnitOfWork.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Domain\ValueObjects\ValueObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Infrastructure\Domain\UnitOfWorks\DataStorage\IDataStorage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Infrastructure\Domain\UnitOfWorks\DomainEventsDispatching\DomainEventsDispatcher.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Infrastructure\Domain\UnitOfWorks\DomainEventsDispatching\IDomainEventsDispatcher.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Infrastructure\Domain\UnitOfWorks\DomainEventsDispatching\IDomainEventsProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\BuildingBlocks\BuildingBlocks.Infrastructure\Domain\UnitOfWorks\UnitOfWork.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\Persistence\AxisUNO.Database\AutofacModules\DatabaseModule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\Persistence\AxisUNO.Database\DatabaseContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\Persistence\AxisUNO.Database\Domain\ProductGroups\ProductGroupEntityTypeConfiguration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\Persistence\AxisUNO.Database\Domain\Products\ProductEntityTypeConfiguration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\Persistence\AxisUNO.Database\Domain\Products\ProductRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\Persistence\AxisUNO.Database\Domain\UnitOfWorks\DataStorage\DataStorage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\Persistence\AxisUNO.Database\Domain\UnitOfWorks\DomainEventsDispatching\DomainEventsProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\Persistence\AxisUNO.Database\Migrations\20220225124749_InitialCreate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\Persistence\AxisUNO.Database\Migrations\20220225124749_InitialCreate.Designer.cs">
+      <DependentUpon>20220225124749_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)src\Persistence\AxisUNO.Database\Migrations\DatabaseContextModelSnapshot.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\Persistence\AxisUNO.Database\Services\DatabaseMigration\DatabaseMigrationService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Assets\Icons\Add.png" />
+    <Content Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Assets\Icons\Cancel.png" />
+    <Content Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Assets\Icons\Customers.png" />
+    <Content Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Assets\Icons\Delete.png" />
+    <Content Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Assets\Icons\Edit.png" />
+    <Content Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Assets\Icons\Home.png" />
+    <Content Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Assets\Icons\Lamp.png" />
+    <Content Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Assets\Icons\Order.png" />
+    <Content Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Assets\Icons\Save.png" />
+    <Content Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Assets\Icons\Settings.png" />
+    <Content Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Assets\Icons\Warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Controls\CustomCommandBars\CustomCommandBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Converters\ConvertersRegistration.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Styles\FontSize\_FontSizes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Styles\NavigationView\NavigationViewStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Styles\StylesRegistration.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Styles\Thickness\_Thicknesses.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Views\DashboardViews\DashboardView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Views\MainViews\MainView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)src\AxisUNO.Presentation\Views\ProductsViews\ProductsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+</Project>
