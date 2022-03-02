@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\AxisUNO - Copy\\src\\Platforms\\AxisUNO.Linux\\AxisUNO.Linux.csproj": {}
+    "C:\\Users\\kasso\\Source\\Repos\\OnSwitchOff\\UnoAppCopy\\src\\Platforms\\AxisUNO.Linux\\AxisUNO.Linux.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\AxisUNO - Copy\\src\\Platforms\\AxisUNO.Linux\\AxisUNO.Linux.csproj": {
+    "C:\\Users\\kasso\\Source\\Repos\\OnSwitchOff\\UnoAppCopy\\src\\Platforms\\AxisUNO.Linux\\AxisUNO.Linux.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\AxisUNO - Copy\\src\\Platforms\\AxisUNO.Linux\\AxisUNO.Linux.csproj",
+        "projectUniqueName": "C:\\Users\\kasso\\Source\\Repos\\OnSwitchOff\\UnoAppCopy\\src\\Platforms\\AxisUNO.Linux\\AxisUNO.Linux.csproj",
         "projectName": "AxisUNO.Linux",
-        "projectPath": "E:\\Projects\\AxisUNO - Copy\\src\\Platforms\\AxisUNO.Linux\\AxisUNO.Linux.csproj",
-        "packagesPath": "C:\\Users\\viktor.kassov\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\AxisUNO - Copy\\src\\Platforms\\AxisUNO.Linux\\obj\\",
+        "projectPath": "C:\\Users\\kasso\\Source\\Repos\\OnSwitchOff\\UnoAppCopy\\src\\Platforms\\AxisUNO.Linux\\AxisUNO.Linux.csproj",
+        "packagesPath": "C:\\Users\\kasso\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kasso\\Source\\Repos\\OnSwitchOff\\UnoAppCopy\\src\\Platforms\\AxisUNO.Linux\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\viktor.kassov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kasso\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,8 +27,8 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://192.168.60.100:44375/nuget": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {

@@ -1,0 +1,10 @@
+App.xbf
+src\AxisUNO.Presentation\Controls\CustomCommandBars\CustomCommandBar.xbf
+src\AxisUNO.Presentation\Converters\ConvertersRegistration.xbf
+src\AxisUNO.Presentation\Styles\FontSize\_FontSizes.xbf
+src\AxisUNO.Presentation\Styles\NavigationView\NavigationViewStyle.xbf
+src\AxisUNO.Presentation\Styles\StylesRegistration.xbf
+src\AxisUNO.Presentation\Styles\Thickness\_Thicknesses.xbf
+src\AxisUNO.Presentation\Views\DashboardViews\DashboardView.xbf
+src\AxisUNO.Presentation\Views\MainViews\MainView.xbf
+src\AxisUNO.Presentation\Views\ProductsViews\ProductsView.xbf

@@ -348,3 +348,40 @@ E:\Projects\AxisUNO - Copy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-wi
 E:\Projects\AxisUNO - Copy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\qualifiers.txt
 E:\Projects\AxisUNO - Copy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\qualifiers.txt.intermediate
 E:\Projects\AxisUNO - Copy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\AxisUNO.Windows.csproj.AssemblyReference.cache
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\App.g.i.cs
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\App.g.cs
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Controls\CustomCommandBars\CustomCommandBar.g.i.cs
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Controls\CustomCommandBars\CustomCommandBar.g.cs
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Views\DashboardViews\DashboardView.g.i.cs
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Views\DashboardViews\DashboardView.g.cs
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Views\MainViews\MainView.g.i.cs
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Views\MainViews\MainView.g.cs
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Views\ProductsViews\ProductsView.g.i.cs
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Views\ProductsViews\ProductsView.g.cs
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\XamlTypeInfo.g.cs
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\App.xaml
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Controls\CustomCommandBars\CustomCommandBar.xaml
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Converters\ConvertersRegistration.xaml
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Styles\FontSize\_FontSizes.xaml
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Styles\NavigationView\NavigationViewStyle.xaml
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Styles\StylesRegistration.xaml
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Styles\Thickness\_Thicknesses.xaml
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Views\DashboardViews\DashboardView.xaml
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Views\MainViews\MainView.xaml
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Views\ProductsViews\ProductsView.xaml
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\App.xbf
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Controls\CustomCommandBars\CustomCommandBar.xbf
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Converters\ConvertersRegistration.xbf
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Styles\FontSize\_FontSizes.xbf
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Styles\NavigationView\NavigationViewStyle.xbf
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Styles\StylesRegistration.xbf
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Styles\Thickness\_Thicknesses.xbf
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Views\DashboardViews\DashboardView.xbf
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Views\MainViews\MainView.xbf
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\src\AxisUNO.Presentation\Views\ProductsViews\ProductsView.xbf
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\XamlSaveStateFile.xml
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\AxisUNO.Windows.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\AxisUNO.Windows.dll
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\refint\AxisUNO.Windows.dll
+C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Windows\obj\x64\Debug\net6.0-windows10.0.22000.0\win10-x64\AxisUNO.Windows.pdb

@@ -1,0 +1,21 @@
+﻿<Application
+    x:Class="AxisUNO.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!--<XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />-->
+
+                <!-- Register custom styles from the Presentation layer -->
+                <ResourceDictionary Source="ms-appx:///AxisUNO.Presentation/Styles/StylesRegistration.xaml"/>
+                <ResourceDictionary Source="ms-appx:///AxisUNO.Presentation/Converters/ConvertersRegistration.xaml"/>
+
+                <!-- Other merged dictionaries here -->
+            </ResourceDictionary.MergedDictionaries>
+
+            <!-- Other app resources here -->
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

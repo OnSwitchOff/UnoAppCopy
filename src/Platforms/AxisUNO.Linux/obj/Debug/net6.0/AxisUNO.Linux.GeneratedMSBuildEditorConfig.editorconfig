@@ -3,7 +3,7 @@ build_property.TargetPlatformIdentifier =
 build_property.TargetFramework = net6.0
 build_property.TargetFramework = net6.0
 build_property.ProjectTypeGuidsProperty = 
-build_property.MSBuildProjectFullPath = E:\Projects\AxisUNO - Copy\src\Platforms\AxisUNO.Linux\AxisUNO.Linux.csproj
+build_property.MSBuildProjectFullPath = C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Linux\AxisUNO.Linux.csproj
 build_property.RootNamespace = AxisUNO.Linux
 build_property.RootNamespace = AxisUNO.Linux
 build_property.DefineConstantsProperty = TRACE,DEBUG,NET,NET6_0,NETCOREAPP,UNO_REFERENCE_API,HAS_UNO_SKIA,HAS_UNO_SKIA_GTK
@@ -20,7 +20,7 @@ build_property.UseWPF =
 build_property.IsUnoHead = true
 build_property.UnoRemoteControlPort = 
 build_property.UnoRemoteControlHost = 
-build_property.UnoRemoteControlProcessorsPath = C:\Users\viktor.kassov\.nuget\packages\uno.winui.remotecontrol\4.0.13\buildTransitive\../tools/rc/processors
+build_property.UnoRemoteControlProcessorsPath = C:\Users\kasso\.nuget\packages\uno.winui.remotecontrol\4.0.13\buildTransitive\../tools/rc/processors
 build_property.TSBindingsPath = 
 build_property.UseUnoXamlParser = 
 build_property.UnoSkipUserControlsInVisualTree = 
@@ -42,64 +42,64 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.ProjectDir = E:\Projects\AxisUNO - Copy\src\Platforms\AxisUNO.Linux\
+build_property.ProjectDir = C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\Platforms\AxisUNO.Linux\
 
-[E:/Projects/AxisUNO - Copy/src/AxisUNO/src/AxisUNO.Presentation/Controls/CustomCommandBars/CustomCommandBar.xaml]
+[C:/Users/kasso/Source/Repos/OnSwitchOff/UnoAppCopy/src/AxisUNO/src/AxisUNO.Presentation/Controls/CustomCommandBars/CustomCommandBar.xaml]
 build_metadata.AdditionalFiles.SourceItemGroup = Page
 build_metadata.AdditionalFiles.Link = src\AxisUNO.Presentation\Controls\CustomCommandBars\CustomCommandBar.xaml
-build_metadata.AdditionalFiles.FullPath = E:\Projects\AxisUNO - Copy\src\AxisUNO\src\AxisUNO.Presentation\Controls\CustomCommandBars\CustomCommandBar.xaml
-build_metadata.AdditionalFiles.Identity = E:\Projects\AxisUNO - Copy\src\AxisUNO\src\AxisUNO.Presentation\Controls\CustomCommandBars\CustomCommandBar.xaml
+build_metadata.AdditionalFiles.FullPath = C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\AxisUNO\src\AxisUNO.Presentation\Controls\CustomCommandBars\CustomCommandBar.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\AxisUNO\src\AxisUNO.Presentation\Controls\CustomCommandBars\CustomCommandBar.xaml
 
-[E:/Projects/AxisUNO - Copy/src/AxisUNO/src/AxisUNO.Presentation/Converters/ConvertersRegistration.xaml]
+[C:/Users/kasso/Source/Repos/OnSwitchOff/UnoAppCopy/src/AxisUNO/src/AxisUNO.Presentation/Converters/ConvertersRegistration.xaml]
 build_metadata.AdditionalFiles.SourceItemGroup = Page
 build_metadata.AdditionalFiles.Link = src\AxisUNO.Presentation\Converters\ConvertersRegistration.xaml
-build_metadata.AdditionalFiles.FullPath = E:\Projects\AxisUNO - Copy\src\AxisUNO\src\AxisUNO.Presentation\Converters\ConvertersRegistration.xaml
-build_metadata.AdditionalFiles.Identity = E:\Projects\AxisUNO - Copy\src\AxisUNO\src\AxisUNO.Presentation\Converters\ConvertersRegistration.xaml
+build_metadata.AdditionalFiles.FullPath = C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\AxisUNO\src\AxisUNO.Presentation\Converters\ConvertersRegistration.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\AxisUNO\src\AxisUNO.Presentation\Converters\ConvertersRegistration.xaml
 
-[E:/Projects/AxisUNO - Copy/src/AxisUNO/src/AxisUNO.Presentation/Styles/FontSize/_FontSizes.xaml]
+[C:/Users/kasso/Source/Repos/OnSwitchOff/UnoAppCopy/src/AxisUNO/src/AxisUNO.Presentation/Styles/FontSize/_FontSizes.xaml]
 build_metadata.AdditionalFiles.SourceItemGroup = Page
 build_metadata.AdditionalFiles.Link = src\AxisUNO.Presentation\Styles\FontSize\_FontSizes.xaml
-build_metadata.AdditionalFiles.FullPath = E:\Projects\AxisUNO - Copy\src\AxisUNO\src\AxisUNO.Presentation\Styles\FontSize\_FontSizes.xaml
-build_metadata.AdditionalFiles.Identity = E:\Projects\AxisUNO - Copy\src\AxisUNO\src\AxisUNO.Presentation\Styles\FontSize\_FontSizes.xaml
+build_metadata.AdditionalFiles.FullPath = C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\AxisUNO\src\AxisUNO.Presentation\Styles\FontSize\_FontSizes.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\AxisUNO\src\AxisUNO.Presentation\Styles\FontSize\_FontSizes.xaml
 
-[E:/Projects/AxisUNO - Copy/src/AxisUNO/src/AxisUNO.Presentation/Styles/NavigationView/NavigationViewStyle.xaml]
+[C:/Users/kasso/Source/Repos/OnSwitchOff/UnoAppCopy/src/AxisUNO/src/AxisUNO.Presentation/Styles/NavigationView/NavigationViewStyle.xaml]
 build_metadata.AdditionalFiles.SourceItemGroup = Page
 build_metadata.AdditionalFiles.Link = src\AxisUNO.Presentation\Styles\NavigationView\NavigationViewStyle.xaml
-build_metadata.AdditionalFiles.FullPath = E:\Projects\AxisUNO - Copy\src\AxisUNO\src\AxisUNO.Presentation\Styles\NavigationView\NavigationViewStyle.xaml
-build_metadata.AdditionalFiles.Identity = E:\Projects\AxisUNO - Copy\src\AxisUNO\src\AxisUNO.Presentation\Styles\NavigationView\NavigationViewStyle.xaml
+build_metadata.AdditionalFiles.FullPath = C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\AxisUNO\src\AxisUNO.Presentation\Styles\NavigationView\NavigationViewStyle.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\AxisUNO\src\AxisUNO.Presentation\Styles\NavigationView\NavigationViewStyle.xaml
 
-[E:/Projects/AxisUNO - Copy/src/AxisUNO/src/AxisUNO.Presentation/Styles/StylesRegistration.xaml]
+[C:/Users/kasso/Source/Repos/OnSwitchOff/UnoAppCopy/src/AxisUNO/src/AxisUNO.Presentation/Styles/StylesRegistration.xaml]
 build_metadata.AdditionalFiles.SourceItemGroup = Page
 build_metadata.AdditionalFiles.Link = src\AxisUNO.Presentation\Styles\StylesRegistration.xaml
-build_metadata.AdditionalFiles.FullPath = E:\Projects\AxisUNO - Copy\src\AxisUNO\src\AxisUNO.Presentation\Styles\StylesRegistration.xaml
-build_metadata.AdditionalFiles.Identity = E:\Projects\AxisUNO - Copy\src\AxisUNO\src\AxisUNO.Presentation\Styles\StylesRegistration.xaml
+build_metadata.AdditionalFiles.FullPath = C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\AxisUNO\src\AxisUNO.Presentation\Styles\StylesRegistration.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\AxisUNO\src\AxisUNO.Presentation\Styles\StylesRegistration.xaml
 
-[E:/Projects/AxisUNO - Copy/src/AxisUNO/src/AxisUNO.Presentation/Styles/Thickness/_Thicknesses.xaml]
+[C:/Users/kasso/Source/Repos/OnSwitchOff/UnoAppCopy/src/AxisUNO/src/AxisUNO.Presentation/Styles/Thickness/_Thicknesses.xaml]
 build_metadata.AdditionalFiles.SourceItemGroup = Page
 build_metadata.AdditionalFiles.Link = src\AxisUNO.Presentation\Styles\Thickness\_Thicknesses.xaml
-build_metadata.AdditionalFiles.FullPath = E:\Projects\AxisUNO - Copy\src\AxisUNO\src\AxisUNO.Presentation\Styles\Thickness\_Thicknesses.xaml
-build_metadata.AdditionalFiles.Identity = E:\Projects\AxisUNO - Copy\src\AxisUNO\src\AxisUNO.Presentation\Styles\Thickness\_Thicknesses.xaml
+build_metadata.AdditionalFiles.FullPath = C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\AxisUNO\src\AxisUNO.Presentation\Styles\Thickness\_Thicknesses.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\AxisUNO\src\AxisUNO.Presentation\Styles\Thickness\_Thicknesses.xaml
 
-[E:/Projects/AxisUNO - Copy/src/AxisUNO/src/AxisUNO.Presentation/Views/DashboardViews/DashboardView.xaml]
+[C:/Users/kasso/Source/Repos/OnSwitchOff/UnoAppCopy/src/AxisUNO/src/AxisUNO.Presentation/Views/DashboardViews/DashboardView.xaml]
 build_metadata.AdditionalFiles.SourceItemGroup = Page
 build_metadata.AdditionalFiles.Link = src\AxisUNO.Presentation\Views\DashboardViews\DashboardView.xaml
-build_metadata.AdditionalFiles.FullPath = E:\Projects\AxisUNO - Copy\src\AxisUNO\src\AxisUNO.Presentation\Views\DashboardViews\DashboardView.xaml
-build_metadata.AdditionalFiles.Identity = E:\Projects\AxisUNO - Copy\src\AxisUNO\src\AxisUNO.Presentation\Views\DashboardViews\DashboardView.xaml
+build_metadata.AdditionalFiles.FullPath = C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\AxisUNO\src\AxisUNO.Presentation\Views\DashboardViews\DashboardView.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\AxisUNO\src\AxisUNO.Presentation\Views\DashboardViews\DashboardView.xaml
 
-[E:/Projects/AxisUNO - Copy/src/AxisUNO/src/AxisUNO.Presentation/Views/MainViews/MainView.xaml]
+[C:/Users/kasso/Source/Repos/OnSwitchOff/UnoAppCopy/src/AxisUNO/src/AxisUNO.Presentation/Views/MainViews/MainView.xaml]
 build_metadata.AdditionalFiles.SourceItemGroup = Page
 build_metadata.AdditionalFiles.Link = src\AxisUNO.Presentation\Views\MainViews\MainView.xaml
-build_metadata.AdditionalFiles.FullPath = E:\Projects\AxisUNO - Copy\src\AxisUNO\src\AxisUNO.Presentation\Views\MainViews\MainView.xaml
-build_metadata.AdditionalFiles.Identity = E:\Projects\AxisUNO - Copy\src\AxisUNO\src\AxisUNO.Presentation\Views\MainViews\MainView.xaml
+build_metadata.AdditionalFiles.FullPath = C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\AxisUNO\src\AxisUNO.Presentation\Views\MainViews\MainView.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\AxisUNO\src\AxisUNO.Presentation\Views\MainViews\MainView.xaml
 
-[E:/Projects/AxisUNO - Copy/src/AxisUNO/src/AxisUNO.Presentation/Views/ProductsViews/ProductsView.xaml]
+[C:/Users/kasso/Source/Repos/OnSwitchOff/UnoAppCopy/src/AxisUNO/src/AxisUNO.Presentation/Views/ProductsViews/ProductsView.xaml]
 build_metadata.AdditionalFiles.SourceItemGroup = Page
 build_metadata.AdditionalFiles.Link = src\AxisUNO.Presentation\Views\ProductsViews\ProductsView.xaml
-build_metadata.AdditionalFiles.FullPath = E:\Projects\AxisUNO - Copy\src\AxisUNO\src\AxisUNO.Presentation\Views\ProductsViews\ProductsView.xaml
-build_metadata.AdditionalFiles.Identity = E:\Projects\AxisUNO - Copy\src\AxisUNO\src\AxisUNO.Presentation\Views\ProductsViews\ProductsView.xaml
+build_metadata.AdditionalFiles.FullPath = C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\AxisUNO\src\AxisUNO.Presentation\Views\ProductsViews\ProductsView.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\AxisUNO\src\AxisUNO.Presentation\Views\ProductsViews\ProductsView.xaml
 
-[E:/Projects/AxisUNO - Copy/src/AxisUNO/App.xaml]
+[C:/Users/kasso/Source/Repos/OnSwitchOff/UnoAppCopy/src/AxisUNO/App.xaml]
 build_metadata.AdditionalFiles.SourceItemGroup = ApplicationDefinition
 build_metadata.AdditionalFiles.Link = App.xaml
-build_metadata.AdditionalFiles.FullPath = E:\Projects\AxisUNO - Copy\src\AxisUNO\App.xaml
-build_metadata.AdditionalFiles.Identity = E:\Projects\AxisUNO - Copy\src\AxisUNO\App.xaml
+build_metadata.AdditionalFiles.FullPath = C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\AxisUNO\App.xaml
+build_metadata.AdditionalFiles.Identity = C:\Users\kasso\Source\Repos\OnSwitchOff\UnoAppCopy\src\AxisUNO\App.xaml
